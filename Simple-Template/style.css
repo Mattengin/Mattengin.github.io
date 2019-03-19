@@ -1,0 +1,106 @@
+.it{
+    
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("unsplash.jpg");
+    
+    height: 100vh; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    position: relative;
+    width: 1000px;
+    margin: 150px auto 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
+}
+
+.container .card{
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.container .card .img-box{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+
+}
+
+img{
+    height: 439.3px;
+    width: 310px;
+    border-radius: 10px;
+}
+
+.container .card:hover .img-box{
+    opacity: 0.5;
+} 
+
+
+.container .card .img-box img{
+    width: 100%;
+}
+
+.container .card .content{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: -100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.container .card:hover .content{
+    bottom: 0;
+}
+
+.container .card:nth-child(1) .content{
+    background: linear-gradient(0deg, #c21833, transparent);
+    border-radius: 10px;
+    
+}
+
+.container .card:nth-child(2) .content{
+    background: linear-gradient(0deg, green, transparent);
+    border-radius: 10px;
+}
+
+.container .card:nth-child(3) .content{
+    background: linear-gradient(0deg, purple, transparent);
+    border-radius: 10px;
+}
+
+.content{
+    color: white;
+}
+
+li{
+    float: left;
+    list-style: none;
+}
+
+
+/* image height: 433.3px;   width: 310px; and add border-radius 10px;﻿ */
