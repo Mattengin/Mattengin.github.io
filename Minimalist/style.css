@@ -1,0 +1,170 @@
+/* .back{
+    background-image: url("simone.jpg");
+    height: 90vh; 
+
+    Center and scale the image nicely
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.5;
+} */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #272722
+}
+
+.gray{
+    color: gray
+}
+
+
+
+nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+nav.black{
+    background: rgba(0,0,0,0.8);
+    height: 100px;
+    padding: 10px 100px;
+}
+
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: .3s;
+}
+
+nav.black .logo{
+    color: #fff
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    line-height: 80px;
+    color: gray;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav.black ul li a{
+    color: #fff;
+}
+
+nav ul li a:focus{
+    outline: none;
+}
+
+nav ul li a:hover{
+    background: #E2472F;
+    color: #fff;
+    border-radius: 6px; 
+}
+
+section.sec1{
+    width: 100%;
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    margin-right: 10%;
+    margin-top: 15%;
+    text-align: right
+
+}
+
+.content p{
+   color: gray;
+    margin: 30px auto;
+    text-align: right;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-size: 2em;
+    color: gray;
+}
+
+.content h3{
+    font-size: 1.5em;
+    color: gray
+}
+
+.icons{
+    
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.icons li {
+    padding:  1%;
+    display: inline;
+    
+}
+
+.icons .fab{
+    color: #fff;
+  
+}
+
+.icons .fas{
+    color: #fff;
+}
+
+
+
+.social :nth-child(1):hover{
+    opacity: 0.5;
+}
+
+.social :nth-child(2):hover{
+    opacity: 0.5;
+}
+
+footer{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    color: gray;
+   
+   text-align: center;
+}
